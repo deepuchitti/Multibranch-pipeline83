@@ -12,9 +12,9 @@ pipeline {
               sh 'echo "this is sprint1 branch.."'
            }
        }
-       stage("Development") {
+       stage("sprint2") {
            steps {
-              sh 'echo "deploying application.."'
+              sh 'echo "this is sprint2.."'
            }
        }
     }
